@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&family=Open+Sans:ital,wght@0,400;0,500;1,300&family=Oswald:wght@400;500&family=Roboto:wght@700&display=swap');
+
+body {
+    background-color: #515358;
+}
+
+* {
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+}
+
+:root {
+    --mainColor: white;
+    --mainColorLighter: #dfe4ef;
+    --secondaryColor: #c1a306;
+    --textColor: black;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 80px;
+    padding: 0 2rem;
+    background-color: var(--mainColor);
+    color: var(--textColor);
+}
+
+nav a {
+    margin: 0 1rem;
+    color: var(--textColor);
+    text-decoration: none;
+    font-size: 1.25rem;
+    transition: 200ms;
+}
+
+.active, nav a:hover {
+    transition: 200ms;
+    color: var(--secondaryColor);
+}
+
+
+
+
+

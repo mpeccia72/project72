@@ -1,0 +1,10 @@
+* {
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 1200px;
+    background-color: gray;
+}
